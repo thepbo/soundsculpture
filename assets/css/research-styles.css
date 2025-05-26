@@ -23,14 +23,9 @@ header{
 }
 
 .pbo-font-styling-menu li{
-    letter-spacing: 1.1rem;
+    letter-spacing: .5rem;
     transition: .2s ease-in-out;
-    padding: 1rem;
-}
-
-.pbo-font-styling-menu li:hover{
-    letter-spacing: 1rem;
-    opacity: 0.3;
+    padding: 1.2rem;
 }
 
 .pbo-font-styling-menu-sub li{
@@ -39,7 +34,10 @@ header{
     padding: .5rem;
 }
 
-
+.pbo-font-styling-menu li:hover{
+    letter-spacing: .3rem;
+    opacity: 0.7;
+}
 .pbo-solid-font{
     color: var(--pbo-solid-font)
 }

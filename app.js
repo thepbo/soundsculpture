@@ -1,8 +1,6 @@
 
 
-
-  document.addEventListener('click', function (event) {
-    console.log('Document clicked')    
+  document.addEventListener('click', function (event) {   
 
     const isToggle = event.target.closest('[data-bs-toggle="collapse"]');
     const isInside = event.target.closest('.collapse.show');
