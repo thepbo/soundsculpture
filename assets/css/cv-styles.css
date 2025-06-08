@@ -1,8 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+
 body{
+font-family: "orbitron", sans-serif;
 padding:0;
 margin:0;
 }
+
 :root{
     --pbo-solid: #e7e6e6;
     --pbo-solid-font: #b1b1b1;
@@ -12,15 +18,18 @@ margin:0;
 .foto-cv-head{
     width: 65%;
     object-fit: cover;
-    object-position: center;
     opacity: .9;
 
+}
+.cv-center{
+    display: flex;
+    justify-content: center;
 }
 
 /*styling*/
 /*fonts*/
 .pbo-font-styling{
-    letter-spacing: 1.2rem;
+    letter-spacing: .3rem;
 }
 
 .pbo-font-styling-menu li{
@@ -45,6 +54,18 @@ margin:0;
 .pbo-special-font{
     color: var(--pbo-font);
 }
+
+/*navbar-icon*/
+.icono-menu{
+    width: 3rem;
+    background:none;
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+
 
 /*solids*/
 
@@ -96,6 +117,30 @@ header img{
     width: 40vw;
 }
 
+.button-field{
+    width: 70vw;
+    border: 1px solid #f1f1f1;
+
+}
+
+.flecha{
+    background-color: #333;
+    animation: tilting 3s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes tilting{
+
+    0%{
+        opacity: 0;
+    }
+
+    to{
+        opacity: .2;
+    }
+    
+}
 
 @media(max-width: 780px ) {
     

@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+
+body{
+font-family: "orbitron", sans-serif;
+padding:0;
+margin:0;
+}
 
 :root{
     --pbo-solid: #e7e6e6;
@@ -9,7 +18,7 @@
 
 /*styling*/
 .pbo-font-styling{
-    letter-spacing: 1.2rem;
+    letter-spacing: .3rem;
 }
 
 .pbo-font-styling-menu li{
@@ -46,11 +55,22 @@
     color: var(--pbo-font);
 }
 
+/*navbar-icon*/
+.icono-menu{
+    width: 3rem;
+    background:none;
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+
 /*video*/
 
 
 video{
-    width: 65%;
+    width: 70%;
     transition: .9s ease-in-out .1s;
 }
 
